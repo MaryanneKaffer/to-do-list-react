@@ -7,12 +7,20 @@ export type Task = {
   isFavorite?: boolean;
 };
 
-export const TaskContext = createContext({
-  tasks: [] as Task[],
-  addTask: (title: string, description: string) => { },
-  removeTask: (id: string) => { },
-  updateTask: (updatedTask: Task) => { },
-  toggleFavorite: (taskId: string) => { },
+type TaskContextType = {
+  tasks: Task[];
+  addTask: (title: string, description: string) => void;
+  removeTask: (id: string) => void;
+  updateTask: (updatedTask: Task) => void;
+  toggleFavorite: (taskId: string) => void;
+};
+
+export const TaskContext = createContext<TaskContextType>({
+  tasks: [],
+  addTask: () => {},
+  removeTask: () => {},
+  updateTask: () => {},
+  toggleFavorite: () => {},
 });
 
 export const TaskProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

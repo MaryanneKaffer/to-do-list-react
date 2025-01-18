@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Nome do Projeto 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Descrição curta do projeto (ex.: Um aplicativo de gestão de tarefas para ajudar na organização pessoal).**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este projeto foi desenvolvido para [objetivo principal, ex.: aprender React e trabalhar com APIs REST]. Ele inclui funcionalidades como:
+- Lista de tarefas dinâmicas
+- Login de usuários com autenticação JWT
+- Interface responsiva desenvolvida com Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Sinta-se à vontade para explorar o código e dar feedback! 😊
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Front-end**: React, TypeScript, Tailwind CSS
+- **Back-end**: Node.js, Express.js, MongoDB
+- **Autenticação**: JSON Web Tokens (JWT)
+- **Testes**: Jest e React Testing Library
+- **Controle de Versão**: Git & GitHub
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🚀 Funcionalidades
+
+- Cadastro, edição e exclusão de tarefas
+- Filtro de tarefas por status (pendente, concluída)
+- Design responsivo para desktop e mobile
+- Login e registro de usuários com validação
+- Integração com API externa para sugestão de tarefas
+
+---
+
+## 📦 Como Rodar o Projeto Localmente
+
+### Pré-requisitos:
+- Node.js instalado
+- Gerenciador de pacotes (npm ou yarn)
+
+### Passo a Passo:
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
