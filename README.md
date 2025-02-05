@@ -1,47 +1,58 @@
-# Nome do Projeto 🚀
+# Simple To-Do List ✍️
 
-**Descrição curta do projeto (ex.: Um aplicativo de gestão de tarefas para ajudar na organização pessoal).**
-
----
-
-## 📝 Sobre o Projeto
-
-Este projeto foi desenvolvido para [objetivo principal, ex.: aprender React e trabalhar com APIs REST]. Ele inclui funcionalidades como:
-- Lista de tarefas dinâmicas
-- Login de usuários com autenticação JWT
-- Interface responsiva desenvolvida com Tailwind CSS
-
-Sinta-se à vontade para explorar o código e dar feedback! 😊
+A beginner-friendly, minimalistic To-Do List web application to help you keep track of your daily tasks. Built with simplicity and usability in mind.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## 📍 About the Project
 
-- **Front-end**: React, TypeScript, Tailwind CSS
-- **Back-end**: Node.js, Express.js, MongoDB
-- **Autenticação**: JSON Web Tokens (JWT)
-- **Testes**: Jest e React Testing Library
-- **Controle de Versão**: Git & GitHub
+This project serves as an starting point for learning web development. It allows users to add, mark as favorite, and delete tasks.
 
 ---
 
-## 🚀 Funcionalidades
+## 🛠️ Technologies and Tools Used
 
-- Cadastro, edição e exclusão de tarefas
-- Filtro de tarefas por status (pendente, concluída)
-- Design responsivo para desktop e mobile
-- Login e registro de usuários com validação
-- Integração com API externa para sugestão de tarefas
+- **Front-end**: Vite, React, TypeScript, Tailwind CSS
+
+- **Version Control**: Git & GitHub
 
 ---
 
-## 📦 Como Rodar o Projeto Localmente
+## 🚀 Features
 
-### Pré-requisitos:
-- Node.js instalado
-- Gerenciador de pacotes (npm ou yarn)
+- Add tasks with a simple input
+- Mark tasks as favorite
+- Delete tasks from the list
+- Clean and user-friendly interface
 
-### Passo a Passo:
-1. Clone este repositório:
+---
+
+## 🗼️ How to Start the Project
+
+1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   git clone https://github.com/MaryanneKaffer/to-do-list-react
+   cd todolist
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the project in your browser:**
+   Navigate to [http://localhost:5173](http://localhost:5173) (or the port shown in the terminal).
+
+---
+
+# ✍️ Stay Organized and Productive! ✍️
+
+- to-do-list-react-rho-dusky.vercel.app
